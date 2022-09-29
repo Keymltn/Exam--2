@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/scss/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body class="bg-info">
+    <div class="container">
+        <h1 class="text-white fw-3 fs-3 text-center m-5">MENU</h1>
+        <div class="inputs-wrapper">
+            <form class="d-flex" action="">
+                <div class="inputs-wrapper_left">
+                    <div class="inputs-wrapper_left-up">
+                        <input class="inputs border border-0 ps-3" required minlength="3" autocomplete="off" placeholder="Taom nomi" type="text" id="food__name">
+                        <input class="inputs border border-0 ps-3" required minlength="3" autocomplete="off" placeholder="Taom narxi" type="text" id="food__price">
+                        <input class="inputs border border-0 ps-3" required minlength="3" autocomplete="off" placeholder="Taom rasmi linki" type="text" id="food__img">
+                    </div>
+                    <div class="inputs-wrapper_left-down">
+                        <input class="inputs border border-0 ps-3" required minlength="3" autocomplete="off" placeholder="Taom oshpazi" type="text" id="food__cooker">
+                        <input class="input-bigger border border-0 ps-3" required minlength="3" autocomplete="off" placeholder="Taom tayyorlangan restoran" type="text" id="food__cafe">
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center inputs-wrapper_right">
+                    <button type="submit" id="food_adder-btn"  class="food__adder-btn btn btn-success">ADD</button>
+                </div>
+            </form>
+        </div>  
+        <div id="foods_done" class="mt-5 foods_done">
+
+        </div>
+    </div>
+    <script src="assets/JS/app.js"></script>
+</body>
+</html>

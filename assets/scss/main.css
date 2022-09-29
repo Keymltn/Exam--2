@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.inputs {
+  width: 297px;
+  height: 55px;
+  background: #E9E9E9;
+  border-radius: 10px;
+  margin: 0 28px 32px 0;
+  outline: none;
+  caret-color: rgb(255, 0, 0);
+  color: #080767;
+}
+
+.input-bigger {
+  width: 628px;
+  height: 55px;
+  background: #E9E9E9;
+  border-radius: 10px;
+  outline: none;
+  text-indent: 10px;
+  caret-color: rgb(255, 0, 0);
+  color: #080767;
+}
+
+.food__adder-btn {
+  width: 102px !important;
+  height: 41px !important;
+  border: none !important;
+  margin: -30px 0 0 120px !important;
+  border-radius: 0 !important;
+  background: #1DE755 !important;
+  box-shadow: 7px 8px 18px rgb(255, 0, 0);
+}
+
+.food__adder-btn:active {
+  box-shadow: inset -7px -11px 17px 0px red;
+}
+
+.taskno1 {
+  width: 1202px;
+  height: 220px;
+  background: #FFFFFF;
+  border-radius: 25px;
+  margin-bottom: 57px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 40px 26px 30px;
+}
+
+.dad_img {
+  width: 252px;
+  height: 168px;
+  border-radius: 18px;
+}
+
+.img_el {
+  width: 252px;
+  height: 168px;
+  border-radius: 18px;
+}
+
+.info_el {
+  width: 376px;
+  height: 168px;
+}
+
+.margin {
+  margin-top: 20px;
+}
+
+.btn_wrapper {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.delete_btn {
+  width: 180px;
+  height: 43px;
+  background: #FB2020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 19px 0 13px 116px;
+  color: #E9E9E9;
+}
+
+.date_btn {
+  width: 180px;
+  height: 43px;
+  background: #F5D00D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0 13px 116px;
+  color: #E9E9E9;
+}
+
+.done_btn {
+  background: #15E04E;
+  width: 180px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E9E9E9;
+  margin: 0px 0 13px 116px;
+}
+
+.done_color {
+  background: #C9F4A7;
+}/*# sourceMappingURL=main.css.map */
